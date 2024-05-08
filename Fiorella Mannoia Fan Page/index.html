@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio</title>
+    <style>
+        #video img{
+            width: 300px;
+            border: 2px solid rgb(243, 218, 181); 
+            transition: transform .4s;
+        }
+
+        #video img:hover {
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+            transform: scale(1.1);
+        }
+        #video {
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            
+        }
+
+        body{
+            background-color: burlywood;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        h1 {
+            color:rgb(110, 66, 66); 
+            font-size: 70px;
+        }
+
+        h2, #video h3 {
+            color:rgb(78, 28, 70);
+            font-style: italic;   
+        }
+
+        h2{
+            font-size: 35px;
+            margin-top: 60px;
+        }
+
+        #main h3{
+            font-size: 28px;
+        }
+
+        #menu{
+            text-align: center;
+            margin-bottom: 80px;
+            border: 2px solid rgb(243, 218, 181);
+            width: 60%;
+            margin: 0 auto;
+        }
+        #menu li{
+            list-style: none;
+            display: inline;
+            margin: 80px;
+            color: rgb(78, 28, 70);
+            font-weight: 800;
+            cursor: pointer;     
+        }
+        #menu li:hover{
+            color:rgb(243, 218, 181);
+        }
+
+       #footer {
+            border-top:2px solid rgb(243, 218, 181);
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div id="header">
+       
+        <h1>Fiorella Mannoia Official</h1>
+        <div id="menu">
+            <ul>
+                <li>
+                    Calendario Tour
+                </li>
+                <li>
+                    Acquista Album
+                </li>
+                <li>
+                    Discografia
+                </li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div id="main">
+        <h2>Guarda i video</h2>
+        <div id="video">
+            <div>
+        <h3>"Combattente" (2016)</h3>
+        <a href="https://www.youtube.com/watch?v=2eX0nTuFwRI" target="_blank"> <img src="./assets/combattente.jpg" alt="Combattente"></a>
+    </div>
+    <div>
+        <h3>"Che sia benedetta" (2017)</h3>
+        <a href="https://www.youtube.com/watch?v=u6fbLKY6IfI" target="_blank"><img src="./assets/chesiabenedetta.jpg" alt="Che sia benedetta"></a>
+    </div>
+    <div>
+        <h3>"Mariposa" (2024)</h3>
+        <a href="https://www.youtube.com/watch?v=TxESTffH9nw" target="_blank"><img src="./assets/mariposa.jpg" alt="Mariposa"></a>
+    </div>
+</div>
+    </div>
+       </main>
+     
+<footer>
+<div id="footer"></div>
+</footer>
+    
+</body>
+</html>
